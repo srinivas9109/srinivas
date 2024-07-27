@@ -1,0 +1,64 @@
+.hobbies-container {
+    width: 95%;
+    margin: auto;
+    margin-top: 40px;
+}
+.hobbies-title h3 {
+    font-family: 'Poppins-Semibold';
+    color: white;
+    text-align: center;
+    background-color: var(--dark-orange);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(250, 247, 247, 0.1);
+
+}
+.Hobbies-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 45%;
+    background-color: rgb(238, 222, 235);
+    margin: 2%;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(250, 247, 247, 0.1);
+}
+.card:hover{
+    transform: scale(1.05);
+    
+
+}
+.card img{
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+}
+.card-title h3{
+    font-size: 18px;
+    font-style: normal;
+    text-align: center;
+    
+}
+.card-title{
+    font-family: 'Poppins-Bold';
+    color: #000080;
+    text-align: center;
+    background-color:rgb(244, 203, 236) ;
+    margin: 10px auto;
+    border-radius: 10px;
+    width: 70%;
+}
+.card-title:hover{
+    background-color: #000080;
+    color: rgb(244, 203, 236);
+    padding: 0px;
+}
+@media screen and (min-width: 810px) {
+    .card{
+        width: 15%;
+     
+    }
+    
+    
+  }

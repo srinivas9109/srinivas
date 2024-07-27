@@ -1,0 +1,81 @@
+.skill-container {
+    width: 95%;
+    margin: auto;
+}
+
+.skill-category {
+    width: 30%;
+}
+
+.skill-details {
+    width: 40%;
+    
+}
+.skill-animation{
+    width: 30%;
+
+}
+
+.divider {
+    border-left:  solid rgba(138, 150, 201, 0.712);
+    margin: 2px 0px;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgb(238, 222, 235);
+    box-shadow: 0 10px 20px rgba(240, 117, 80, 0.6);
+    overflow: hidden;
+
+}
+
+.skill-container h3 {
+    font-family: 'Poppins-Semibold';
+    color: white;
+    text-align: center;
+    background-color: var(--dark-orange);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(250, 247, 247, 0.1);
+
+}
+.skill-category  ul{
+    margin: 0 auto;
+    padding: 0%;
+}
+/* .skill-category  ul li::marker{
+    
+} */
+.skill-category  ul li{
+    font-family: 'Poppins-Bold';
+    color: #000080;
+    text-align: center;
+    background-color:rgb(244, 203, 236) ;
+    margin: 5px 0;
+    border-radius: 10px;
+    list-style: none;
+
+}
+.skill-category  ul .active{
+    
+    background-color: #000080;
+    color:rgb(244, 203, 236) ;
+
+}
+.skill-category  ul li:hover{
+    
+    cursor: pointer;
+    transition: all 0,5s ease-in-out;
+    background-color: #000080b0;
+    color: rgb(244, 203, 236);
+    box-sizing: border-box;
+}
+.skill-details h6{
+    font-family: 'Poppins-Medium';
+    margin: 10px;
+    font-size: medium;
+    font-weight: 600;
+    color: rgb(43, 42, 44);
+}

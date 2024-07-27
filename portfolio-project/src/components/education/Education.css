@@ -1,0 +1,65 @@
+.edu-container{
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.edu-title h3 {
+    font-family: 'Poppins-Semibold';
+    color: white;
+    text-align: center;
+    background-color: var(--dark-orange);
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(250, 247, 247, 0.1);
+}
+
+.edu-x , .edu-xii , .edu-btech{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.edu-logo{
+    width: 40%;
+}
+
+
+.edu-details{
+    width: 60%;
+    background-color: rgb(238, 222, 235);
+    box-shadow: 0 10px 40px rgba(240, 117, 80, 0.6);
+    border-radius: 10px;
+    text-align: center;
+
+}
+.edu-details h3{
+    color: #000080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    padding-top: 10px;
+    font-size: medium;
+}
+.edu-details p{
+    color: #000080;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: x-small;
+    margin: 2px;
+}
+
+
+@media screen and (min-width: 810px) {
+    .edu-details h3{
+     
+        padding-top: 20px;
+        font-size: x-large;
+    }
+    .edu-details p{
+        
+        font-size: x-large;
+        margin: 10px;
+    }
+    
+    
+    
+  }
