@@ -26,7 +26,7 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
   linkedin: 'https://www.linkedin.com/in/tharugusrinivasulu',
-  snap: "https://twitter.com/RishavChanda",
+  git: "https://github.com/srinivas9109/srinivas/tree/projects/portfolio",
   insta: 'https://www.instagram.com/tsr_vicky/',
   facebook: "https://www.snapchat.com/add/srinivasvicky21?share_id=ujDDZ3wYvxU&locale=en-GB"
 };

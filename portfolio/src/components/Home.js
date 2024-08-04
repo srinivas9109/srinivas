@@ -1,7 +1,9 @@
 import React from "react";
 import HeroImage from "../assests/profile.jpg";
-import { FaFacebook, FaLinkedin, FaSnapchatSquare } from "react-icons/fa";
+import { FaFacebook, FaLinkedin } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
+import { FaGitSquare } from "react-icons/fa";
+
 import { Bio } from '../data/constants'
 
 
@@ -51,8 +53,8 @@ const Home = () => {
                         <a target={"_blank"} rel="noreferrer" href={Bio.facebook}>
                             <FaFacebook className="hover:scale-150 duration-200 m-5 w-5 h-5" />
                         </a>
-                        <a target={"_blank"} rel="noreferrer" href={Bio.snap}>
-                            <FaSnapchatSquare className="hover:scale-150 duration-200 m-5 w-5 h-5" />
+                        <a target={"_blank"} rel="noreferrer" href={Bio.git}>
+                            <FaGitSquare className="hover:scale-150 duration-200 m-5 w-5 h-5" />
                         </a>
                     </div>
                 </div>

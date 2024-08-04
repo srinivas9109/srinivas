@@ -13,7 +13,6 @@ const Contact = () => {
 
   const formSubmit = (e) => {
     e.preventDefault();
-    console.log(name, mail, subject);
     if (name === '' || mail === '' || subject === '') {
       toast.current.show({ severity: 'error', summary: 'Info', detail: 'Please check all the fileds Name,email and Subject' });
     } else {
