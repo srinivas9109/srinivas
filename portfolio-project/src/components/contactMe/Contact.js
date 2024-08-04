@@ -12,7 +12,8 @@ export default function Contact() {
         setData({...data, [e.target.name]:[e.target.value]})
     }
     const submitHandler = e => {
-        e.preventDefault();        
+        e.preventDefault();    
+        console.log('email',e.target);    
         emailjs.sendForm('service_zi00iob', 'template_100kjfk', e.target, 'zCNtqR4eTQZgX_RkZ')
             .then((result) => {
                 console.log(result.text);
@@ -48,15 +49,15 @@ export default function Contact() {
             </div>
             <div className='contact-form'>
                 <form onSubmit={submitHandler} autoComplete="off">
-                    <div class="form-group">
+                    <div className="form-group">
                         <label for="email">Email:</label>
                         <input type="email" required class="form-control" id="email" placeholder="Enter your email" name="email" value={email} onChange={changeHandler} />  
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                         <label for="subject">Subject:</label>
                         <input type="text" required class="form-control" id="subject" placeholder="Enter subject" name="subject" value={subject} onChange={changeHandler} /> 
                     </div>
-                    <div class="form-group">
+                    <div className="form-group">
                         <label for="message">Message:</label>
                         <textarea required class="form-control" rows="3" id="message" name='message' value={message} onChange={changeHandler}></textarea>
                     </div>

@@ -15,8 +15,8 @@ import Skills from './components/skills/Skills';
 
 
 function App() {
-  return (
 
+  return (
     <div className="App" >
           <Nav />
           <Profile />
@@ -29,7 +29,6 @@ function App() {
           <Contact />
           <Footer />
           <Scroll />
-        
     </div>
 
   );
